@@ -112,7 +112,7 @@ select DOM 은 `multiple` 속성을 가질수 있는데, 이는 이전 그룹 �
 
 ## 컨텐츠 편집
 
-HTML5 에서 제공하는 컨텐츠 편집 기능은 DOM 에서 사용자가 요소를 편집할 수 있는지 나타내는 열거형 특성이다. [MDN]<https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/contenteditable>
+HTML5 에서 제공하는 컨텐츠 편집 기능은 DOM 에서 사용자가 요소를 편집할 수 있는지 나타내는 열거형 특성이다. [MDN](https://developer.mozilla.org/ko/docs/Web/HTML/Global_attributes/contenteditable)
 
 사용 방법은 HTML5 와 규격사항인 `contenteditable="true"` 과 동일하다.
 
@@ -167,7 +167,7 @@ bind 로 사용할 수 있는 속성은 `textContent` 와 `innerHtml` 이다.
 
 그러나 해당 이벤트는 자주 발생하지 않아 원하는 흐름대로 동작하지 않는다.
 
-이를 해소하기 위해서 Svelte 는 `requestAnimationFrame` 을 사용하여 `currentTime` 을 수신한다. [MDN]<https://developer.mozilla.org/ko/docs/Web/API/Window/requestAnimationFrame>
+이를 해소하기 위해서 Svelte 는 `requestAnimationFrame` 을 사용하여 `currentTime` 을 수신한다. [MDN](https://developer.mozilla.org/ko/docs/Web/API/Window/requestAnimationFrame)
 
 미디어 엘리먼트는 6 개의 읽기 전용 속성이 있다.
 
@@ -235,4 +235,4 @@ DOM 의 엘리먼트에 바인딩 가능한 것처럼 컴포넌트의 속성 들
 
 **컴포넌트 바인딩은 신중하게 사용해야한다.**
 
-데이터 흐름이 너무 많은 경우, 특히 SSOT[WIKI]<https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9D%BC_%EC%A7%84%EC%8B%A4_%EA%B3%B5%EA%B8%89%EC%9B%90> 설계가 아닌 애플리케이션이라면 주변 데이터 흐름을 추적하기가 매우 어려워질 수 있다.
+데이터 흐름이 너무 많은 경우, 특히 SSOT [WIKI](https://ko.wikipedia.org/wiki/%EB%8B%A8%EC%9D%BC_%EC%A7%84%EC%8B%A4_%EA%B3%B5%EA%B8%89%EC%9B%90) 설계가 아닌 애플리케이션이라면 주변 데이터 흐름을 추적하기가 매우 어려워질 수 있다.
