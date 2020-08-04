@@ -2,6 +2,10 @@
 
 [Svelte](https://svelte.dev/)
 
+## svelte-template
+
+[github]<https://github.com/sveltejs/template>
+
 ## tutorial
 
 1. [개요](./tutorial/1_introduction)
