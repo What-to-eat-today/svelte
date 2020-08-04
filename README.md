@@ -4,7 +4,7 @@
 
 ## svelte-template
 
-[github]<https://github.com/sveltejs/template>
+[github](https://github.com/sveltejs/template)
 
 ## tutorial
 
